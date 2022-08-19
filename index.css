@@ -1,0 +1,32 @@
+*{
+  box-sizing: border-box;
+}
+
+.result-item__container{
+ width: 500px;
+ height: 150px;
+ background-color: aquamarine;
+ display: flex;
+ flex-direction: row;
+ overflow: hidden;
+ margin: 20px;
+}
+
+.result-item__img{
+  width: 200px;
+  height: auto;
+}
+
+.result-item__text-box{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.result-item__text-box-title{
+  font-size: 20px;
+}
+
+.result-item__text-box-price{
+  font-size: 16px;
+}
